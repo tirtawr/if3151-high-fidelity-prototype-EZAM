@@ -12,6 +12,14 @@
 	<base href="<?php echo $systemurl; ?>">
 
     <title>Home - EZAM</title>
+	
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery-ui-1.10.2.custom.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +33,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+	<?php echo $incHeader; ?>
 
 </head>
 
@@ -44,6 +54,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<?php if ($isLogin == 0) { ?>
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#">About</a>
@@ -55,6 +66,19 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
+			<?php }else{ ?>
+				<ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#">My Committee</a>
+                    </li>
+                    <li>
+                        <a href="#">Profile</a>
+                    </li>
+                </ul>
+			<?php } ?>
 				<ul class="nav navbar-nav navbar-right">
 				  <li class="dropdown">
 					<a aria-expanded="false" href="#" class="dropdown-toggle" data-toggle="dropdown">Ezam Account <b class="caret"></b></a>
