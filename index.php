@@ -19,6 +19,16 @@ switch ($p) {
 	case 'mycommittee'	:	$viewBody = "views/mycommittee.php";
 							$isLogin = 1;
 							break;
+							
+	case 'committee'	:	include("models/committee.php");
+							$viewBody = "views/committee.php";
+							$isLogin = 1;
+							break;
+							
+	case 'structure'	:	include("models/structure.php");
+							$viewBody = "views/structure.php";
+							$isLogin = 1;
+							break;
 	
 	case 'member'		: 	$viewBody = "views/member.php"; 
 							include("models/member.php");
