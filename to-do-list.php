@@ -33,7 +33,6 @@
 </head>
 
 <body>
-	<?php require "header.php"; ?>
 	<div id="konten">
 		<div id="tudulis">
 			<table class="table table-striped">

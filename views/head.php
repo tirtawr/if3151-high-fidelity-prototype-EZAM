@@ -82,6 +82,8 @@
 				<ul class="nav navbar-nav navbar-right">
 				  <li class="dropdown">
 					<a aria-expanded="false" href="#" class="dropdown-toggle" data-toggle="dropdown">Ezam Account <b class="caret"></b></a>
+					
+					<?php if ($isLogin == 0) { ?>
 					<div class="dropdown-menu" style="width: 380px; height: 250px; padding: 10px;">
 					<h4>Login to your account</h3>
 					  <form action="page/member">
@@ -89,7 +91,15 @@
 						<input class="form-control" type="password" placeholder="Password" /><br/>
 						<input class="btn btn-primary" type="submit" value="Login" />
 					  </form>
-					</div>
+					  </div>
+					 <?php } elseif($isLogin == 1) { ?>
+					 <div class="dropdown-menu" style="width: 380px; height: 125px; padding: 10px;">
+					 <img src="image/Budi.png" style="float:left;width:100px; margin-right: 10px;"/><h4>Hello <strong>Andre Susanto</strong>!</h3>
+					 You have <strong>2</strong> actives committee<br/>
+					 <a href="<?php echo $systemurl; ?>">Log Out</a>
+					  </div>
+					 <?php } ?>
+					
 				  </li>
 				</ul>
             </div>
