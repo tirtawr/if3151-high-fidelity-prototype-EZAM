@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset='utf-8' />
-	<link href='calendar/fullcalendar.css' rel='stylesheet' />
+<?php 
+$incHeader = "<link href='calendar/fullcalendar.css' rel='stylesheet' />
 	<link href='calendar/fullcalendar.print.css' rel='stylesheet' media='print' />
 	<script src='calendar/lib/moment.min.js'></script>
 	<script src='calendar/lib/jquery.min.js'></script>
@@ -34,7 +31,7 @@
 					$('#calendar').fullCalendar('unselect');
 				},
 				editable: true,
-				eventLimit: true, // allow "more" link when too many events
+				eventLimit: true, 
 				events: [
 					{
 						title: 'All Day Event',
@@ -50,13 +47,13 @@
 						id: 999,
 						title: 'Repeating Event',
 						start: '2014-11-09T16:00:00',
-						color: 'yellow'
+						color: 'blue'
 					},
 					{
 						id: 999,
 						title: 'Repeating Event',
 						start: '2014-11-16T16:00:00',
-						color: 'yellow'
+						color: 'blue'
 					},
 					{
 						title: 'Conference',
@@ -91,45 +88,11 @@
 					{
 						title: 'Birthday Party',
 						start: '2014-11-13T07:00:00'
-					},
-					{
-						title: 'Click for Google',
-						url: 'http://google.com/',
-						start: '2014-11-28'
 					}
 				]
 			});
 			
 		});
 
-	</script>
-	<style>
-
-		body {
-			margin: 40px 10px;
-			padding: 0;
-			font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-			font-size: 14px;
-		}
-
-		#calendar {
-			max-width: 900px;
-			margin: 0 auto;
-		}
-
-		#nav{
-			height: 25px;
-			
-		}
-
-	</style>
-</head>
-
-<body>
-
-	<?php require "header.php"; ?>
-
-	<div id='calendar'></div>
-
-</body>
-</html>
+	</script>";
+						$isLogin = 1;

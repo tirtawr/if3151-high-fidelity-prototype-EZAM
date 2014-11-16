@@ -69,10 +69,10 @@
 			<?php }else{ ?>
 				<ul class="nav navbar-nav">
                     <li>
-                        <a href="#">Dashboard</a>
+                        <a href="page/member">Dashboard</a>
                     </li>
                     <li>
-                        <a href="#">My Committee</a>
+                        <a href="page/mycommittee">My Committee</a>
                     </li>
                     <li>
                         <a href="#">Profile</a>
