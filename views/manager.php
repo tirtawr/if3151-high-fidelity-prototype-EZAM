@@ -25,11 +25,11 @@
 									<tr>
 									<tr>
 										<td>1</td>
-										<td>Rector of ITB Election</td>
+										<td>ITB's Rector Election</td>
 										<td><div class="progress progress-striped active">
 										  <div class="progress-bar" style="width: 45%"></div>
 										</div></td>
-										<td><a href="#" class="btn btn-sm btn-primary">Modify</a> <a href="#" class="btn btn-sm btn-danger">End</a></td>
+										<td><a href="page/modify" class="btn btn-sm btn-primary">Modify</a> <a href="javascript:void(0);" onclick="confirm('Are you sure want to end this committee? \n\nThis action is undoneable');" class="btn btn-sm btn-danger">End</a></td>
 									</tr>
 									<tr>
 										<td>2</td>
@@ -75,7 +75,7 @@
 			</div>
 			
 			<div class="col-lg-2">
-				<a href="#" class="btn btn-default">Add New Committee</a>
+				<a href="page/new" class="btn btn-default">Add New Committee</a>
 			</div>
 		
 		</div>

@@ -16,6 +16,18 @@ switch ($p) {
 							$viewBody = "views/new.php"; 
 							break;
 							
+	case 'modify'		:	include("models/modify.php");
+							$viewBody = "views/modify.php"; 
+							break;
+							
+	case 'mymember'		:	$viewBody = "views/mymember.php";
+							$isLogin = 2;
+							break;
+							
+	case 'manager'		:	$viewBody = "views/manager.php";
+							$isLogin = 2;
+							break;
+							
 	case 'mycommittee'	:	$viewBody = "views/mycommittee.php";
 							$isLogin = 1;
 							break;
@@ -28,9 +40,7 @@ switch ($p) {
 							$isLogin = 1;
 							break;
 	
-	case 'manager'		:	$viewBody = "views/manager.php";
-							$isLogin = 1;
-							break;
+
 							
 	case 'broadcastsms'	:	$viewBody = "views/broadcastsms.php";
 							$isLogin = 1;

@@ -32,7 +32,7 @@ $incHeader = "<link href=\"css/primitives.latest.css?207\" media=\"screen\" rel=
             var result;
             var options = new primitives.orgdiagram.Config();
             var itemsToAdd = [];
-            for (var index = 1; index <= 0; index++) {
+            for (var index = 1; index <= 1; index++) {
                 id = counter++;
                 var newItem = new primitives.orgdiagram.ItemConfig({
                     id: id,
@@ -106,7 +106,7 @@ $incHeader = "<link href=\"css/primitives.latest.css?207\" media=\"screen\" rel=
             var result;
             var options = new primitives.orgdiagram.Config();
             var itemsToAdd = [];
-            for (var index = 1; index <= 10; index++) {
+            for (var index = 1; index <= 3; index++) {
                 id = counter++;
                 var newItem = new primitives.orgdiagram.ItemConfig({
                     id: id,
@@ -131,7 +131,6 @@ $incHeader = "<link href=\"css/primitives.latest.css?207\" media=\"screen\" rel=
             options.normalItemsInterval = 20;
             options.dotItemsInterval = 10;
             options.lineItemsInterval = 5;
-			options.minimalVisibility = 1;
             options.buttonsPanelSize = 48;
 			
 			options.leavesPlacementType = 1;

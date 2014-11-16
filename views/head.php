@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="image/logo.png" style="margin-top:-12px;"/></a>
+                <a class="navbar-brand" href="javascript:void(0);"><img src="image/logo.png" style="margin-top:-12px;"/></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -64,6 +64,18 @@
                     </li>
                     <li>
                         <a href="#">Contact</a>
+                    </li>
+                </ul>
+			<?php }elseif ($isLogin == 2) { ?>
+				<ul class="nav navbar-nav">
+                    <li>
+                        <a href="page/manager">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="page/mymember">My Members</a>
+                    </li>
+                    <li>
+                        <a href="page/profile">Profile</a>
                     </li>
                 </ul>
 			<?php }else{ ?>
@@ -84,10 +96,18 @@
 					<a aria-expanded="false" href="#" class="dropdown-toggle" data-toggle="dropdown">Ezam Account <b class="caret"></b></a>
 					
 					<?php if ($isLogin == 0) { ?>
+					  <script>
+					function cekLogin(){
+						if(document.getElementById('userlogin').value == "jokowidodo")
+							window.location.assign("page/manager");
+						else
+							window.location.assign("page/member");
+					}
+					</script>
 					<div class="dropdown-menu" style="width: 380px; height: 250px; padding: 10px;">
 					<h4>Login to your account</h3>
-					  <form action="page/member">
-						<input class="form-control" type="text" placeholder="Username" /><br/>
+					  <form action="page/member" onsubmit="cekLogin(); return false;">
+						<input id="userlogin" class="form-control" type="text" placeholder="Username" /><br/>
 						<input class="form-control" type="password" placeholder="Password" /><br/>
 						<input class="btn btn-primary" type="submit" value="Login" />
 					  </form>
@@ -98,6 +118,13 @@
 					 You have <strong>2</strong> actives committee<br/>
 					 <a href="<?php echo $systemurl; ?>">Log Out</a>
 					  </div>
+					  <?php } elseif($isLogin == 2) { ?>
+					 <div class="dropdown-menu" style="width: 380px; height: 125px; padding: 10px;">
+					 <img src="image/joko.png" style="float:left;width:100px; margin-right: 10px;"/><h4>Hello <strong>Joko Widodo</strong>!</h3>
+					 Your rule is <strong>Manager</strong><br/>
+					 <a href="<?php echo $systemurl; ?>">Log Out</a>
+					  </div>
+					
 					 <?php } ?>
 					
 				  </li>

@@ -21,7 +21,7 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="image/promo1.jpg" alt="">
                     <div class="caption">
                         <h3>Colab Callendar</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -34,7 +34,7 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="image/promo2.jpg" alt="">
                     <div class="caption">
                         <h3>To-do-list</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -47,7 +47,7 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="image/promo3.jpg" alt="">
                     <div class="caption">
                         <h3>Organization Editor</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -60,7 +60,7 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="image/promo4.jpg" alt="">
                     <div class="caption">
                         <h3>Communication</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
