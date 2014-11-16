@@ -16,17 +16,8 @@
 				<ul class="nav nav-tabs">
 				  <li class=""><a href="page/committee">Overview</a></li>
 				  <li class="active"><a href="javascript:void(0);">Organization Structure</a></li>
-				  <li class="disabled"><a>Disabled</a></li>
-				  <li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-					  Dropdown <span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-					  <li><a href="#dropdown1" data-toggle="tab">Action</a></li>
-					  <li class="divider"></li>
-					  <li><a href="#dropdown2" data-toggle="tab">Another action</a></li>
-					</ul>
-				  </li>
+				  <li class=""><a href="page/chat">Chat</a></li>
+				  <li class=""><a href="page/broadcastsms">Broadcast SMS</a></li>
 				</ul>
 				<div id="myTabContent" class="tab-content">
 				  <div class="tab-pane fade active in" id="ov">

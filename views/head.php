@@ -75,7 +75,7 @@
                         <a href="page/mycommittee">My Committee</a>
                     </li>
                     <li>
-                        <a href="#">Profile</a>
+                        <a href="page/profile">Profile</a>
                     </li>
                 </ul>
 			<?php } ?>

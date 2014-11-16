@@ -20,6 +20,22 @@ switch ($p) {
 							$isLogin = 1;
 							break;
 							
+	case 'chat'			:	$viewBody = "views/chat.php";
+							$isLogin = 1;
+							break;
+							
+	case 'profile'		:	$viewBody = "views/profile.php";
+							$isLogin = 1;
+							break;
+	
+	case 'manager'		:	$viewBody = "views/manager.php";
+							$isLogin = 1;
+							break;
+							
+	case 'broadcastsms'	:	$viewBody = "views/broadcastsms.php";
+							$isLogin = 1;
+							break;
+							
 	case 'committee'	:	include("models/committee.php");
 							$viewBody = "views/committee.php";
 							$isLogin = 1;

@@ -22,7 +22,7 @@
 								<tr style="background:grey;color:black;">
 									<th width="50px;"><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></th>
 									<th width="70%">Pasar Seni ITB 2014</th>
-									<th>Penanggung Jawab</th>
+									<th>Responsible Person</th>
 								<tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
@@ -63,7 +63,7 @@
 								<tr style="background:grey;color:black;">
 									<th width="50px"><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></th>
 									<th width="70%">Annual Indonesian-International Agreement Conference</th>
-									<th>Penanggung Jawab</th>
+									<th>Responsible Person</th>
 								<tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
