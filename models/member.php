@@ -32,6 +32,10 @@ $incHeader = "<link href='calendar/fullcalendar.css' rel='stylesheet' />
 				},
 				editable: true,
 				eventLimit: true, 
+				// down vote accepted
+	
+
+		
 				events: [
 					{
 						title: 'All Day Event',

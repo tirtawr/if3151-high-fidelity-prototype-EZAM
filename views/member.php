@@ -13,6 +13,7 @@
             <div class="col-lg-12">
 				<h2>Calendar</h2>
 				<div id='calendar'></div>
+				To add event, click on desired date.
 				<hr/>
 				<h2>To-do-list</h2>
 				<div id="konten">
@@ -27,27 +28,27 @@
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Jalan - jalan</td>
-									<td>Tito</td>
+									<td><select><option>Tito</option><option>Aji</option><option>Andre</option><option>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;" checked></div></td>
 									<td>Main bola</td>
-									<td>-</td>
+									<td><select><option>Tito</option><option>Aji</option><option>Andre</option><option selected>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Main Layang Layang</td>
-									<td>Andre</td>
+									<td><select><option>Tito</option><option>Aji</option><option selected>Andre</option><option>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Terbang ke Awan</td>
-									<td>Aji</td>
+									<td><select><option>Tito</option><option selected>Aji</option><option>Andre</option><option>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Pura - pura sibuk</td>
-									<td>Zaky</td>
+									<td><select><option selected>Tito</option><option>Aji</option><option>Andre</option><option>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
@@ -68,27 +69,27 @@
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Jalan - jalan</td>
-									<td>Tito</td>
+									<td><select><option selected>Tito</option><option>Aji</option><option>Andre</option><option>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Main bola</td>
-									<td>-</td>
+									<td><select><option>Tito</option><option>Aji</option><option>Andre</option><option selected>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Main Layang Layang</td>
-									<td>Andre</td>
+									<td><select><option>Tito</option><option>Aji</option><option selected>Andre</option><option>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Terbang ke Awan</td>
-									<td>Aji</td>
+									<td><select><option>Tito</option><option selected>Aji</option><option>Andre</option><option>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
 									<td>Pura - pura sibuk</td>
-									<td>Zaky</td>
+									<td><select><option selected>Tito</option><option>Aji</option><option>Andre</option><option selected>Unassigned</option></select></td>
 								</tr>
 								<tr>
 									<td><div class="checkbox"><input type="checkbox" style="margin: 0px;"></div></td>
